@@ -1,0 +1,165 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    marginVertical: 8,
+  },
+  selector: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 15,
+    paddingVertical: 12,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 8,
+    backgroundColor: '#fff',
+    minHeight: 50,
+  },
+  selectorDisabled: {
+    backgroundColor: '#f5f5f5',
+    opacity: 0.6,
+  },
+  selectedContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+  },
+  colorIndicator: {
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    marginRight: 10,
+  },
+  selectedTextContainer: {
+    flex: 1,
+  },
+  selectedCode: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  selectedName: {
+    fontSize: 14,
+    color: '#666',
+    marginTop: 2,
+  },
+  placeholder: {
+    fontSize: 16,
+    color: '#999',
+    flex: 1,
+  },
+  arrow: {
+    fontSize: 12,
+    color: '#666',
+    marginLeft: 10,
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalContainer: {
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    width: '90%',
+    maxWidth: 400,
+    maxHeight: '80%',
+    elevation: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  modalTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  closeButton: {
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    backgroundColor: '#f0f0f0',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  closeButtonText: {
+    fontSize: 16,
+    color: '#666',
+    fontWeight: 'bold',
+  },
+  optionsContainer: {
+    maxHeight: 300,
+  },
+  option: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderBottomWidth: 1,
+    borderBottomColor: '#f0f0f0',
+  },
+  optionSelected: {
+    backgroundColor: '#f8f9ff',
+  },
+  optionContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+  },
+  optionColorIndicator: {
+    width: 16,
+    height: 16,
+    borderRadius: 8,
+    marginRight: 15,
+  },
+  optionTextContainer: {
+    flex: 1,
+  },
+  optionCode: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  optionName: {
+    fontSize: 14,
+    color: '#666',
+    marginTop: 2,
+  },
+  optionDescription: {
+    fontSize: 12,
+    color: '#888',
+    marginTop: 4,
+    lineHeight: 16,
+  },
+  checkmark: {
+    fontSize: 18,
+    color: '#4CAF50',
+    fontWeight: 'bold',
+  },
+  modalFooter: {
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderTopWidth: 1,
+    borderTopColor: '#eee',
+    backgroundColor: '#f8f9fa',
+  },
+  footerText: {
+    fontSize: 12,
+    color: '#666',
+    textAlign: 'center',
+    lineHeight: 16,
+  },
+});

@@ -1,0 +1,116 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000000',
+  },
+  overlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.95)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  lockContainer: {
+    backgroundColor: '#1a1a1a',
+    borderRadius: 20,
+    padding: 30,
+    alignItems: 'center',
+    width: '100%',
+    maxWidth: 350,
+    borderWidth: 1,
+    borderColor: '#333',
+  },
+  lockIcon: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    backgroundColor: '#2c2c2c',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  lockEmoji: {
+    fontSize: 40,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#ffffff',
+    marginBottom: 10,
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 16,
+    color: '#cccccc',
+    marginBottom: 30,
+    textAlign: 'center',
+    lineHeight: 22,
+  },
+  attemptsContainer: {
+    backgroundColor: '#4a1a1a',
+    paddingHorizontal: 15,
+    paddingVertical: 8,
+    borderRadius: 10,
+    marginBottom: 20,
+  },
+  attemptsText: {
+    color: '#ff6b6b',
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  authButton: {
+    backgroundColor: '#007AFF',
+    paddingVertical: 15,
+    paddingHorizontal: 30,
+    borderRadius: 15,
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 30,
+    minWidth: 200,
+    justifyContent: 'center',
+  },
+  authButtonDisabled: {
+    backgroundColor: '#555555',
+    opacity: 0.7,
+  },
+  authButtonIcon: {
+    fontSize: 20,
+    marginRight: 10,
+  },
+  authButtonText: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  changeMethodButton: {
+    backgroundColor: 'transparent',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#4CAF50',
+    marginBottom: 20,
+  },
+  changeMethodText: {
+    color: '#4CAF50',
+    fontSize: 14,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  securityInfo: {
+    alignItems: 'center',
+  },
+  securityText: {
+    color: '#888888',
+    fontSize: 14,
+    textAlign: 'center',
+    marginBottom: 5,
+  },
+  securitySubtext: {
+    color: '#666666',
+    fontSize: 12,
+    textAlign: 'center',
+  },
+});
